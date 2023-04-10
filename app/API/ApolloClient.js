@@ -5,7 +5,7 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
     const client = new ApolloClient({
         uri: 'https://graphql.contentful.com/content/v1/spaces/uqc7pcypi89w',
         headers: {
-            authorization:"Bearer yhXbILxafWv4IJnL5B9IQ9DVqHTVJzIfxTzNS3n4kls",
+            authorization:"Bearer .....",
         },
         cache: new InMemoryCache(),
     });
